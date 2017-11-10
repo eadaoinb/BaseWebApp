@@ -1,26 +1,28 @@
 <html lang="en">
 <head>
-    <% include ../partials/head %>
+  <% include ../partials/head %>
 </head>
+<body class="container">
 
-<body>
+  <header>
+    <% include ../partials/navbar %>
+  </header>
 
-  <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
-  <!-- Check out more components here: http://getbootstrap.com/components/ -->
-  <div class="page-header">
-    <h1>YO web apps are so cool</h1>
-  </div>
-
-  <p id="demo">
-    This is me testing out a lil html file
-  </p>
-
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
-  </button>
-
-  <div id="doge-image"/>
-
+  <main class="contact-container">
+    <div class="page-header">
+      <h1>Be my friend?</h1>
+    </div>
+    <div class="content">
+      <a class="contact-icon-link" href="https://www.linkedin.com/in/talia-swartz-09a90675/" target="_blank">
+         <i class="contact-icon fa fa-linkedin-square"></i>
+      </a>
+      <a class="contact-icon-link" href="https://github.com/tswartz" target="_blank">
+        <i class="contact-icon fa fa-github-square"></i>
+      </a>
+      <a class="contact-icon-link" href="https://www.facebook.com/talia.swartz.1" target="_blank">
+        <i class="contact-icon fa fa-facebook-square"></i>
+      </a>
+    </div>
+  </main>
 </body>
-
 </html>
